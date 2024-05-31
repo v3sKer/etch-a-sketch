@@ -7,4 +7,98 @@
 
 html {
   font-size: 62.5%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+}
+
+div.info-container {
+  display: flex;
+  gap: 14px;
+}
+
+main span {
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+}
+
+main p {
+  font-size: 1.6rem;
+}
+
+main button {
+  height: 100%;
+  padding: 4px 16px;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+div.sketch-container {
+  box-sizing: content-box;
+  margin-top: 12px;
+  border: 2px solid black;
+}
+
+div.sketch {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+}
+
+div.row {
+  display: flex;
+  flex-grow: 1;
+}
+
+div.row > div {
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.opacity-10 {
+  opacity: 10%;
+}
+
+.opacity-20 {
+  opacity: 20%;
+}
+
+.opacity-30 {
+  opacity: 30%;
+}
+
+.opacity-40 {
+  opacity: 40%;
+}
+
+.opacity-50 {
+  opacity: 50%;
+}
+
+.opacity-60 {
+  opacity: 60%;
+}
+
+.opacity-70 {
+  opacity: 70%;
+}
+
+.opacity-80 {
+  opacity: 80%;
+}
+
+.opacity-90 {
+  opacity: 90%;
+}
+
+.opacity-100 {
+  opacity: 100%;
 }/*# sourceMappingURL=style.css.map */
